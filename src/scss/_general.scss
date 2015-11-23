@@ -1,0 +1,87 @@
+@import 'var';
+
+body{
+	background-color:#f2f4f8;
+	color:#696969;
+	font-family: 'Microsoft YaHei', 'SimSun';
+}
+
+body, html{
+	overflow-x:hidden;
+}
+
+strong, b{
+	font-weight:700;
+}
+
+
+a:focus{
+	outline:none;}
+
+	a:hover{
+		text-decoration:none;}
+
+		.responsive{
+			width: 100% \9;
+			max-width: 100%;
+			height: auto;
+		}
+
+		.red{
+			background:$red !important;
+		}
+		.green{
+			background:$green !important;
+		}
+		.yellow{
+			background:$yellow !important;
+		}
+		.blue{
+			background:$blue !important;
+		}
+		.text-xlg{
+			font-size:2rem;
+		}
+		.text-green{
+			color: $green;
+			&:hover {
+				color: darken($green,10%);	
+			}
+		}
+		.text-red{
+			color: darken($red,18%);
+			&:hover {
+				color: darken($red,23%);	
+			}
+		}
+		.text-blue{
+			color:$darkblue;
+			&:hover {
+				color: darken($darkblue,10%);	
+			}
+		}
+		.text-yellow{
+			color:$yellow;
+			&:hover {
+				color: darken($yellow,10%);	
+			}
+		}
+		.text-orange{
+			color:$orange;
+			&:hover {
+				color: darken($orange,10%);	
+			}
+		}
+		.text-grey{
+			color:$grey;
+			&:hover {
+				color: darken($grey,10%);	
+			}
+		}
+footer{
+
+
+	h3{
+		font-size: 2rem;
+	}
+}

@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+html,
+body{
+	height: 100%;
+	background: #C0DEED;
+	font-family:'Helvetica Neue','Microsoft Yahei','Hiragino Sans GB','Microsoft Sans Serif','WenQuanYi Micro Hei';
+
+}
+span{			
+	font-size: 5em;
+	padding:15px;
+	position: relative;
+	text-align: center;			
+	display: inline-block;
+	font-weight: bolder;
+}
+
+#wrap {
+          margin: 0 auto;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+      }
+
+.mar{
+	margin-bottom:5em;
+}
+.answers{
+	width: 100%;
+          position: absolute;
+          top: 38%;
+          left: -50%;
+          margin-left: 50%;
+          text-align: center;
+}
+      .content{
+          /*margin: -10% -40%;*/
+          width: 100%;
+          position: absolute;
+          top: 8%;
+          left: -50%;
+          margin-left: 50%;
+          text-align: center;
+      }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.static{
+	color: #999;			
+	text-shadow: 0px -1px #4C3704;
+}
+.card{
+	color: white;
+	border-radius: 10px;    
+	margin: 0 20px;
+	width: 130px;
+	height: 130px;
+	line-height: 130px;
+}
+
+.red{
+	background-color: #FE5F5B;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+.orange{
+	background-color: #FB9433;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+.yellow{
+	background-color: #FDC31A;
+	border-bottom: 5px solid #c49c2d;
+	text-shadow: 0px -2px #c49c2d;
+}
+.green{
+	background-color: #82BF56;
+	border-bottom: 5px solid #7f8e3a;
+	text-shadow: 0px -2px #7f8e3a;
+}
+.cyan{
+	background-color: #50C3C2;
+	border-bottom: 5px solid #219692;
+	text-shadow: 0px -2px #219692;
+}
+.blue{
+	background-color: #3498DB;
+	border-bottom: 5px solid #617299;
+	text-shadow: 0px -2px #617299;
+}
+.purple{
+	background-color: #BC98E8;
+	border-bottom: 5px solid #745d91;
+	text-shadow: 0px -2px #745d91;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	background: rgba(13, 110, 145, 0.5);
+	text-decoration: none;
+	padding: 20px 0;
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.9); /*dim the background*/
+}
+.mymodal {
+    width: 500px;
+    position: fixed;
+    padding:20px;
+    top: 50%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+    font-size: 4em;
+}
+.button {
+  background: #34f5eb;
+  background-image: -webkit-linear-gradient(top, #34f5eb, #0069ab);
+  background-image: -moz-linear-gradient(top, #34f5eb, #0069ab);
+  background-image: -ms-linear-gradient(top, #34f5eb, #0069ab);
+  background-image: -o-linear-gradient(top, #34f5eb, #0069ab);
+  background-image: linear-gradient(to bottom, #34f5eb, #0069ab);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+#cloudy {
+	height:90%;
+	text-align:center;
+	background-color:#C0DEED;
+	background: url(http://7lrzqf.com1.z0.glb.clouddn.com/images/cloud.png) center top repeat-x;
+	animation: cloudy-animasi 25s linear infinite;
+	-ms-animation: cloudy-animasi 25s linear infinite;
+	-moz-animation: cloudy-animasi 25s linear infinite;
+	-webkit-animation: cloudy-animasi 25s linear infinite;
+	z-index: 999;
+}
+
+@keyframes cloudy-animasi {
+	from {
+		background-position: 0 0;
+	}
+
+	to {
+		background-position: 100% 0;
+	};
+}
+
+@-webkit-keyframes cloudy-animasi {
+	from {
+		background-position: 0 0;
+	}
+
+	to {
+		background-position: 100% 0;
+	};
+}
+
+@-ms-keyframes cloudy-animasi {
+	from {
+		background-position: 0 0;
+	}
+
+	to {
+		background-position: 100% 0;
+	};
+}
+
+@-moz-keyframes cloudy-animasi {
+	from {
+		background-position: 0 0;
+	}
+
+	to {
+		background-position: 100% 0;
+	};
+}
